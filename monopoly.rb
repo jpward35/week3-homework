@@ -1,4 +1,4 @@
-# Getting Practice with Hashes and Arrays
+ #Getting Practice with Hashes and Arrays
 
 cheap_property = { :name => 'baltic', :price => 60, :rent => 2 }
 rich_property = { :name => 'boardwalk', :price => 400, :rent => 50 }
@@ -17,22 +17,22 @@ puts cheap_property[:price]
 
 #Q2. How much does it cost to buy Boardwalk?
 #A2: Your code goes here:
-
+puts rich_property[:price]
 
 
 #Q3. How much is rent for Baltic?
 #A3: Your code goes here:
-
+puts cheap_property[:rent]
 
 
 #Q4. How much does it cost to buy New York Ave?
 #A4: Your code goes here:
-
+puts more_properties[2][:price]
 
 
 #Q5: How many "good" special squares are there?
 #A5: Your code goes here:
-
+puts special_squares[:good].count
 
 
 
